@@ -5,86 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="sts.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav class="navbar"> 
-
-        <ul>
-            <img src="anonymous.png" alt="hecker">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li style="float:right"><a href="about">About</a></li>
-          </ul>
-          </nav>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="https://img.pikbest.com/png-images/20240516/black-cat-logo-vector-2_10565758.png!sw800" alt="hecker">
         </div>
+        <div class="navbar-actions">
+            <button id="theme-toggle" class="theme-toggle">🌙 Dark Mode</button>
+            <ul class="navbar-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#myproject">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
  
     
     <section id="home">
     <div class="container">
-    <h1>Sam Lawrence S. Berlanas</h1>
-    <h4>Bachelor of Science in Information Technology</h4>
-    <p>To be Game Developer</p>
-</div>
+        <div class="profile-box">
+            <img class="profile-image" src="metoo.jpg" alt="Profile">
+        </div>
+        <h1>Sam Lawrence S. Berlanas</h1>
+        <h4>Bachelor of Science in Information Technology</h4>
+        <p>To be Game Developer</p>
+    </div>
 </section>
 <section id="about">
-    <div class="container">
-    <p> I'm dedicated for more to learn and creating something new, And trying to discover more of it, The availability and professionalism is always first.</p>
-    <h2> EDUCATIONAL BACKGROUNDS </h2>
-    <P> Elementary: Dole Cannery Central Elementary School </P>
-    <p> High School: Matutum View Baptist Academy Inc.</p>
-    <p> Senior High School: Matutum View Baptist Academy Inc.</p>
-    <p> College: Holy Child Central Colleges Inc. "Ongoing"</p>
+    <div class="container about-card">
+        <p>I'm dedicated to learning more and creating something new. Availability and professionalism are always first.</p>
+        <h2>EDUCATIONAL BACKGROUNDS</h2>
+        <div class="education-card">
+            <p><strong>Elementary:</strong> Dole Cannery Central Elementary School</p>
+            <p><strong>High School:</strong> Matutum View Baptist Academy Inc.</p>
+            <p><strong>Senior High School:</strong> Matutum View Baptist Academy Inc.</p>
+            <p><strong>College:</strong> Holy Child Central Colleges Inc. "Ongoing"</p>
+        </div>
     </div>
 </section>
-<section id="skills"></section>
-    
-<div class="skills">
-    <ul>
-        <li> Microsoft word </li>
-        <li> Power Point Presentation </li>
-        <li> Canva </li>
-        <li> Capcut </li>
-        <li> Database Management </li>
+<section id="skills">
+    <div class="container skills-box">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span>Microsoft Word</span>
+            <span>Power Point Presentation</span>
+            <span>Canva</span>
+            <span>Capcut</span>
+            <span>Database Management</span>
+        </div>
     </div>
-</ul>
-    
-   
 </section>
 <section id="myproject">
-    <div class="container">
-        <article class="card">
-        <img src="wew.png" alt="Project 1">
-        <h3> Youngs Tuna </h3>
-        <p> this project consist of fish and honda beat.</p>
-        </article>
+    <div class="container projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <img src="https://www.shutterstock.com/image-vector/mobile-phone-repair-line-art-260nw-2157550847.jpg" alt="Mobile Phone Repair">
+                <h3>Mobile Phone Repair</h3>
+                <p>A practical repair project focused on restoring mobile devices with a simple and professional presentation.</p>
+                <a class="project-button" href="#contact">View Project</a>
+            </article>
+            <article class="project-card">
+                <img src="https://static.freepnglogo.com/images/all_img/1691829482canva-logo-black.png" alt="Canva Logo Editor">
+                <h3>Canva Logo Editor</h3>
+                <p>A creative design project that explores logo editing and branding through clean visual layouts.</p>
+                <a class="project-button" href="#contact">View Project</a>
+            </article>
+            <article class="project-card">
+                <img src="https://i.pinimg.com/564x/35/4c/29/354c290a9827feb99b3ac158b7633dcf.jpg" alt="Word Document Editor">
+                <h3>Word Document Editor</h3>
+                <p>A document formatting project that emphasizes neat structure, readability, and organized content presentation.</p>
+                <a class="project-button" href="#contact">View Project</a>
+            </article>
+        </div>
     </div>
-
-<div class="container">
-    <article class="card">
-    <img src="wiw.png" alt="Project 2">
-    <h3> Mama coco</h3>
-    <p> this project consist of Coconut, Milk and "Remember me kapag naiisa".</p>
-    </article>
-</div>
-
-<div class="container"></div>
-    <article class="card">
-    <img src="wow.png" alt="Project 3">
-    <h3> Kopiko </h3>
-    <p> this project consist of coffee bean,sugar,milk and "gentle lang sa tomi".</p>
-    </article>
 </section>
-</div>
 <section id="contact">
-<div class="container">
-    <h3> Contact me for more Info. </h4>
-    <h4> Phone number: 09123456789 </h4>
-    <h4> Gmail:</h4> <a href="samlawrenceberlanas635@gmail.com">samlawrenceberlanas635</a>
-    <h4> Facebook:</h4> <a href="https://facebook/ecnerwalmaxsanlreb.com">ecnerwalmaxsanlreb</a>
-</div>
+    <div class="container contact-box">
+        <h3>Contact me for more Info.</h3>
+        <div class="contact-items">
+            <div class="contact-item">
+                <h4>Phone Number</h4>
+                <p>09123456789</p>
+            </div>
+            <div class="contact-item">
+                <h4>Gmail</h4>
+                <a href="mailto:samlawrenceberlanas635@gmail.com">samlawrenceberlanas635@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <h4>Facebook</h4>
+                <a href="https://facebook.com/ecnerwalmaxsanlreb" target="_blank">ecnerwalmaxsanlreb</a>
+            </div>
+        </div>
+    </div>
 </section>
-<footer> nocopyrigths! </footer>
+<footer class="footer">© 2026 No Copyrights</footer>
 </body>
 </html>
