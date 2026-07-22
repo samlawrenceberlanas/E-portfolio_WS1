@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.classList.toggle('light-theme');
 
             const isLight = document.body.classList.contains('light-theme');
-            themeToggle.textContent = isLight ? '☀️ Light Mode' : '🌙 Dark Mode';
+            themeToggle.textContent = isLight ? '🌙 Dark Mode' : '☀️ Light Mode';
         });
     }
 });
