@@ -10,27 +10,11 @@ body {
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-body.light-theme {
-    background-color: #9CCC65;
-    background-image: none;
-    color: #111111;
-}
-
-body.light-theme .navbar {
-    background-color: #0b8300;
-    border: 2px solid #adff2f;
-    border-radius: 12px;
-}
-
 body.light-theme .navbar,
 body.light-theme .skills-box,
 body.light-theme .education-card,
 body.light-theme .contact-box,
 body.light-theme .project-card,
-body.light-theme .footer {
-    background-color: #0b8300;
-    color: #ffffff;
-}
 body.light-theme .navbar-links li a,
 body.light-theme .contact-item p,
 body.light-theme .contact-item a,
@@ -54,6 +38,24 @@ body.light-theme .navbar-links li a:hover,
 body.light-theme .navbar-links li a.active {
     background-color: #00a000;
     color: #ffffff;
+
+    body.light-theme {
+    background-color: #9CCC65;
+    background-image: none;
+    color: #111111;
+}
+
+body.light-theme .footer {
+    background-color: #0b8300;
+    color: #ffffff;
+}
+
+body.light-theme .navbar {
+    background-color: #0b8300;
+    border: 2px solid #adff2f;
+    border-radius: 12px;
+}
+
 }
 .theme-toggle {
     padding: 8px 12px;
